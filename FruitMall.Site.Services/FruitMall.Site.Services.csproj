@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FruitMall.Site.Automapper\FruitMall.Site.Automapper.csproj" />
+    <ProjectReference Include="..\FruitMall.Site.Domain\FruitMall.Site.Domain.csproj" />
+    <ProjectReference Include="..\FruitMall.Site.Infrastructure\FruitMall.Site.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
